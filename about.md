@@ -1,5 +1,5 @@
 ---
-title: About
+title: Mark Wright - About
 permalink: /about/
 ---
 
