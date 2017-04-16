@@ -1,0 +1,21 @@
+.navcontainer ul
+{
+margin: 0;
+padding: 0;
+width: 1000px;
+list-style-type: none;
+text-align: center;
+display: inline;
+}
+
+.navcontainer ul li {
+	float: left;
+  font-size: 1.1rem;
+	list-style-type: none;
+  padding-right: 20px;
+	display: inline-block;
+}
+
+.navcontainer {
+  padding-bottom: 2rem;
+}
