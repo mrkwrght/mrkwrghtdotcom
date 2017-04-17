@@ -46,6 +46,8 @@ nav:
     url:            "/About"
   - name:           "Blog"
     url:            ""
+  - name:           "Contact"
+    url:            "/Contact"
 
 
 # Sass

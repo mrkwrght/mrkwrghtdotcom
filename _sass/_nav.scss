@@ -1,4 +1,9 @@
-.navcontainer ul
+
+nav {
+	float: right;
+}
+
+nav ul
 {
 margin: 0;
 padding: 0;
@@ -8,14 +13,27 @@ text-align: center;
 display: inline;
 }
 
-.navcontainer ul li {
+nav ul li {
 	float: left;
-  font-size: 1.1rem;
+	line-height: 1;
+  font-size: 28px;
 	list-style-type: none;
+	font-weight: bold;
   padding-right: 20px;
-	display: inline-block;
 }
 
-.navcontainer {
-  padding-bottom: 2rem;
+li a {
+	border-bottom: 0px;
+	transition: color 0.5s ease;
+
+
+	&:hover,
+	&:focus {
+		color: $oc-gray-6;
+		border-bottom: 0px;
+	}
+}
+.current  {
+	  color: blue;
+    border-bottom: 2px solid #000;
 }

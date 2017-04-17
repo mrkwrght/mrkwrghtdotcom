@@ -1,6 +1,29 @@
 <header class="header">
-  <div class="header-title">
-    <h1>Mark Wright<span class="green">.</span></h1>
-  </div>
-  {% include nav.html %}
+  <div class="container">
+			<div class="row">
+			<div class="col-md-4 columns">
+          <h1>Mark Wright<span class="green">.</span></h1>
+       </div>
+       <div class="col-md-7">
+  <nav>
+    <ul>
+        {% if page.active == "About" %}
+            <li class="current"><a href="#">About</a></li>
+        {% else %}
+            <li><a href="/mrkwrght/About/">About</a></li>
+        {% endif %}
+        {% if page.active == "Blog" %}
+            <li class="current"><a href="#">Blog</a></li>
+        {% else %}
+            <li><a href="/mrkwrght/">Blog</a></li>
+        {% endif %}
+        {% if page.active == "contact" %}
+            <li class="current"><a href="#">Contact</a></li>
+        {% else %}
+            <li><a href="/mrkwrght/contact">Contact</a></li>
+        {% endif %}
+    </ul>
+ </nav>
+ </div>
+ </div>
 </header>

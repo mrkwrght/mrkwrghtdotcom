@@ -47,12 +47,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: $base-font;
   color: black;
-  font-size: 2.25rem;
+  font-size: 28px;
   text-align: left;
   margin-top: 0px;
-  padding-top: 1rem;
   font-weight: bold;
   margin-bottom: 0px;
   line-height: 1;
@@ -113,7 +112,7 @@ p {
 ol,
 ul,
 dl {
-  margin: 0 0 1em;
+  margin: 0 0 0em;
   padding: 0;
   list-style: none;
   list-style-image: none;
@@ -394,5 +393,5 @@ tbody tr:nth-child(odd) th {
 
 .green {
     color: #29E7B8;
-    font-family: 'Open-Sans';
+    font-family: $base-font;
 }
