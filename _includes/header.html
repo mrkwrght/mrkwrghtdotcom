@@ -1,28 +1,22 @@
 <header class="header">
   <div class="container">
 			<div class="row">
-			<div class="col-md-4 columns">
-          <h1>Mark Wright<span class="green">.</span></h1>
+			<div class="four columns">
+          <h1><a href="blog">Mark Wright<span class="green">.</span></a></h1>
        </div>
-       <div class="col-md-7">
+       <div class="seven columns">
   <nav>
-    <ul>
-        {% if page.active == "About" %}
-            <li class="current"><a href="#">About</a></li>
-        {% else %}
-            <li><a href="/mrkwrght/About/">About</a></li>
-        {% endif %}
-        {% if page.active == "Blog" %}
-            <li class="current"><a href="#">Blog</a></li>
-        {% else %}
-            <li><a href="/mrkwrght/">Blog</a></li>
-        {% endif %}
-        {% if page.active == "contact" %}
-            <li class="current"><a href="#">Contact</a></li>
-        {% else %}
-            <li><a href="/mrkwrght/contact">Contact</a></li>
-        {% endif %}
-    </ul>
+    <ul id="nav">
+    <li{% if page.url == 'about' %} class="active"{% endif %}>
+    <a href="about">About</a>
+    </li>
+    <li{% if page.url == 'index' %} class="active"{% endif %}>
+    <a href="index">Blogs</a>
+    </li>
+    <li{% if page.url == 'contact' %} class="active"{% endif %}>
+    <a href="contact">Contact</a>
+    </li>
+  </ul>
  </nav>
  </div>
  </div>

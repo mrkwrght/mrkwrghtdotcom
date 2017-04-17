@@ -40,14 +40,7 @@ paginate_path:      /page:num/
 markdown:           redcarpet
 
 
-# Navigation
-nav:
-  - name:           "About"
-    url:            "/About"
-  - name:           "Blog"
-    url:            ""
-  - name:           "Contact"
-    url:            "/Contact"
+
 
 
 # Sass

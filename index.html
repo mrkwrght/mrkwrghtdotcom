@@ -17,18 +17,18 @@ title: Mark Wright - Blog
     <a href="{{ post.link }}">
     {% else %}
     {% endif %}
+    <div class="list-post-date">
+      <time>{{ post.date | date_to_string }}</time>
+    </div>
       <h2 class="list-post-title">
           <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </h2>
-      <div class="list-post-date">
-        <time>{{ post.date | date_to_string }}</time>
-      </div>
       {% if post.description %}
       <div class="list-post-desc">
         {{ post.description }}
       </div>
       {% endif %}
-
+      <hr>
   </div>
 {% endfor %}
   <!-- Pagination links -->
@@ -58,4 +58,4 @@ title: Mark Wright - Blog
 </div>
 </div>
 </div>
-</div>
+</div
