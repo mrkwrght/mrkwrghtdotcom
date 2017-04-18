@@ -27,7 +27,8 @@ disqus:
 
 url: "http://www.mrkwrght.com/"
 
-baseurl:            "" # the subpath of your site, e.g. /blog
+baseurl: "/mw-site/"
+
 
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -37,8 +38,7 @@ permalink:          /:year-:month-:day/:title/
 paginate:           5
 paginate_path:      /page:num/
 
-# Markdown
-markdown:           redcarpet
+
 
 
 
