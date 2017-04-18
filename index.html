@@ -18,7 +18,7 @@ title: Mark Wright - Blog
     {% else %}
     {% endif %}
     <div class="list-post-date">
-      <time>{{ post.date | date_to_string }}</time>
+      <time>{{ post.date | date_to_long_string }}</time>
     </div>
       <h2 class="list-post-title">
           <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>

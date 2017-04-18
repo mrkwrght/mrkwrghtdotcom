@@ -19,15 +19,15 @@ body {
   }
 }
 
+
+
 /*--------------
   Link
   -------------- */
 a {
   color: $oc-black;
   text-decoration: none;
-  font-weight: normal;
   border-bottom: 2px solid black;
-
   display: inline-block;
   line-height:  1;
 
@@ -76,18 +76,6 @@ h2 {
   line-height: 1.225em;
 }
 
-
-h2 a:hover {
-  border-bottom: 2px solid #29E7B8;
-}
-
-h2 a {
-  color: black;
-  border-bottom: 2px solid black;
-  font-weight: 600;
-  transition: color 0.5s ease;
-}
-
 h3 {
   font-size: 1.5em;
   line-height: 1.43em;
@@ -114,7 +102,6 @@ p {
   color: $oc-black;
   margin: 0 0 1rem;
   line-height: 1.7em;
-  font-size: 1.25rem;
 }
 
 .lede {

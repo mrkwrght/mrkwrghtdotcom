@@ -54,9 +54,6 @@ body {
         text-decoration: none;
       }
     }
-
-
-
   }
 
   &-nav {
@@ -129,8 +126,7 @@ body {
   &-date {
     margin-bottom: .5rem;
     color: $oc-gray-8;
-    font-size: .75rem;
-    text-transform: uppercase;
+    font-size: 1rem;
   }
 
    &-tag {
@@ -173,7 +169,6 @@ body {
 
   &-disqus {
     margin-top: 4rem;
-    font-size: $base-font-size;
   }
 
 }
@@ -207,18 +202,19 @@ body {
     &-title {
       font-size : 2.25rem;
       font-weight: 600;
+      margin-bottom: .5rem;
     }
 
     &-date {
-      color: $base-lighten-color;
-      font-size: .8rem;
-      text-transform: uppercase;
+      color: $oc-gray-8;
+      font-size: 1rem;
+      margin-bottom: .5rem;
+
     }
 
     &-desc {
       color: $base-color;
       margin-bottom: .25rem;
-      font-size: 1.25rem;
       max-width: 55ch;
     }
   }
