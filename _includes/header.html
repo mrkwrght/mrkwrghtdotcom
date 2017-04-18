@@ -2,19 +2,19 @@
   <div class="container">
 			<div class="row">
 			<div class="four columns">
-          <h1><a href="blog">Mark Wright<span class="green">.</span></a></h1>
+          <h1><a href="{{ site.baseurl }}/">Mark Wright<span class="green">.</span></a></h1>
        </div>
        <div class="seven columns">
   <nav>
     <ul id="nav">
-    <li{% if page.url == 'about' %} class="active"{% endif %}>
-    <a href="about">About</a>
+    <li {% if page.url == '/about/' %} class="active"{% endif %}>
+    <a href="/about">About</a>
     </li>
-    <li{% if page.url == 'index' %} class="active"{% endif %}>
-    <a href="index">Blogs</a>
+    <li {% if page.url == '{{ site.baseurl }}/' %} class="active"{% endif %}>
+    <a href="{{ site.baseurl }}/">Blog</a>
     </li>
-    <li{% if page.url == 'contact' %} class="active"{% endif %}>
-    <a href="contact">Contact</a>
+    <li {% if page.url == '/contact/' %} class="active"{% endif %}>
+    <a href="/contact">Contact</a>
     </li>
   </ul>
  </nav>

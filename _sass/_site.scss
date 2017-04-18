@@ -119,9 +119,11 @@ body {
   &-title {
     margin-top: 0rem;
     margin-bottom: 0.3rem;
-    font-size: 2.25em;
+    font-size: 2.20em;
     line-height: 1.2em;
     font-weight: 600;
+
+
   }
 
   &-date {
@@ -171,6 +173,7 @@ body {
 
   &-disqus {
     margin-top: 4rem;
+    font-size: $base-font-size;
   }
 
 }
@@ -181,8 +184,8 @@ body {
 
 .list {
   &-post {
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
 
 
 
