@@ -187,6 +187,9 @@ body {
   &-post {
     padding-top: .5rem;
     padding-bottom: .5rem;
+    border: 0;
+    border-bottom: 1px solid $divider-color;
+    margin: 1.5rem auto;
 
 
 
