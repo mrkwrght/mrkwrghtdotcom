@@ -1,60 +1,15 @@
 ---
 layout: default
-title: Mark Wright - Blog
+title: Mark Wright
 ---
   {% include header.html %}
-<div class="container">
-<div class="row">
- <div class="page ten columns">
-<div class="list">
-{% if site.posts.size == 0 %}
-  <h2>No post found</h2>
-{% else %}
-<!-- This loops through the paginated posts -->
-{% for post in paginator.posts %}
-  <div class="list-post">
-    {% if post.link %}
-    <a href="{{ post.link }}">
-    {% else %}
-    {% endif %}
-    <div class="list-post-date">
-      <time>{{ post.date | date_to_long_string }}</time>
-    </div>
-      <h2 class="list-post-title">
-          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </h2>
-      {% if post.description %}
-      <div class="list-post-desc">
-        {{ post.description }}
-      </div>
-      {% endif %}
+<div class="container page">
+  <div class="row">
+    <div class="col-8">
+      <p>Hello, I am an interaction and visual designer based in North East England. I create designs based on user needs and research.</p>
+      <!-- <p>I create designs based on user needs and research. I build and use prototypes to test my ideas to make sure they are usable, accessible and meet the needs of the people who use them.</p> -->
+       <p>I am currently designing services at the <a href="https://www.nhsbsa.nhs.uk/" target="_blank" class="link">NHSBSA</a>. I have previously designed government transactional services for <a href="https://www.gov.uk/government/organisations/hm-revenue-customs" target="_blank" class="link">HM Revenue and Customs</a>.</p>
+       {% include social.html %}
   </div>
-{% endfor %}
-  <!-- Pagination links -->
-  <div class="list-pagination">
-    <span class="list-pagination-previous">
-      {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="previous">
-         < Previous
-        </a>
-      {% else %}
-
-      {% endif %}
-    </span>
-
-    <span class="list-pagination-next">
-      {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="next">
-          Next >
-        </a>
-      {% else %}
-
-      {% endif %}
-    </span>
-
-  </div>
-{% endif %}
 </div>
 </div>
-</div>
-</div

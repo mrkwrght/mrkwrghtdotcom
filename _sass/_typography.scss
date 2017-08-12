@@ -27,12 +27,13 @@ body {
 a {
   color: $oc-black;
   text-decoration: none;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid $oc-black;
   display: inline-block;
   line-height:  1;
 
   &:hover,
   &:focus {
+    color: $oc-black;
     text-decoration: none;
     border-bottom: 2px solid #29E7B8;
   }
@@ -49,7 +50,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-family: $base-font;
-  color: black;
+  color: $oc-black;
   font-size: 28px;
   text-align: left;
   margin-top: 0px;
@@ -104,6 +105,10 @@ p {
   color: $oc-black;
   margin: 0 0 1rem;
   line-height: 1.7em;
+  margin: 0px;
+  padding-bottom: 0.1em;
+  font-size: 1.75rem;
+  
 }
 
 .lede {
