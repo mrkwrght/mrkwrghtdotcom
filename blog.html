@@ -1,0 +1,60 @@
+---
+layout: default
+title: Mark Wright - Blog
+---
+  {% include header.html %}
+<div class="container">
+<div class="row">
+ <div class="page ten columns">
+<div class="list">
+{% if site.posts.size == 0 %}
+  <h2>No post found</h2>
+{% else %}
+<!-- This loops through the paginated posts -->
+{% for post in paginator.posts %}
+  <div class="list-post">
+    {% if post.link %}
+    <a href="{{ post.link }}">
+    {% else %}
+    {% endif %}
+    <div class="list-post-date">
+      <time>{{ post.date | date_to_long_string }}</time>
+    </div>
+      <h2 class="list-post-title">
+          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h2>
+      {% if post.description %}
+      <div class="list-post-desc">
+        {{ post.description }}
+      </div>
+      {% endif %}
+  </div>
+{% endfor %}
+  <!-- Pagination links -->
+  <div class="list-pagination">
+    <span class="list-pagination-previous">
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="previous">
+         < Previous
+        </a>
+      {% else %}
+
+      {% endif %}
+    </span>
+
+    <span class="list-pagination-next">
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="next">
+          Next >
+        </a>
+      {% else %}
+
+      {% endif %}
+    </span>
+
+  </div>
+{% endif %}
+</div>
+</div>
+</div>
+</div
