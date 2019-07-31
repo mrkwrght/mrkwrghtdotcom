@@ -14,8 +14,18 @@ html,
 body {
   margin: 0;
   padding: 0;
+  background-color: #f7f2ef;
+
 }
 
+.description {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: inline-block;
+}
 .content-container {
   padding-top: 2rem;
   padding-left: .5rem;
@@ -69,8 +79,8 @@ body {
       &:focus {
         text-decoration: none;
         text-decoration: none;
-        border-bottom: 1px solid #20479F;
-        box-shadow: inset 0 -2px 0 #20479F;
+        border-bottom: 1px solid #0e19ed;
+        box-shadow: inset 0 -2px 0 #0e19ed;
         color: inherit;
       }
     }
@@ -152,7 +162,6 @@ body {
         text-transform: lowercase;
 
         a {
-          display: inline-block;
           margin: 4px;
           margin-left: 0px;
           color: $oc-white;
@@ -197,6 +206,7 @@ body {
       color: $base-color;
       text-decoration: none;
       color: inherit;
+
 
       &:hover,
       &:focus {
