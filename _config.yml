@@ -12,7 +12,7 @@ author:
 
 
 copyright:
-  year:             2017
+  year:             2019
   name:             Mark Wright
 
 # Google-analytics
@@ -25,7 +25,7 @@ disqus:
 
 # URL
 
-url: "http://www.mrkwrght.com/"
+baseurl: "http://www.mrkwrght.com/"
 
 
 
