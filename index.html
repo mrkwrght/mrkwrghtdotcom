@@ -7,7 +7,7 @@ title: Mark Wright
 <div class="row">
     <div class="five columns">
       <div class="description">
-      <p>Mark Wright is an interaction designer based in the north east of England. He is currently designing <a href="https://www.jobs.nhs.uk/">NHS jobs</a> working for  <a href="https://difrent.co.uk/">Difrent</a>.
+      <p>Mark Wright is an interaction designer based in the north east of England. He is currently working for  <a href="https://difrent.co.uk/">Difrent</a>.
         He has worked on services for <a href="https://www.gov.uk/government/organisations/hm-revenue-customs" target="_blank">HM Revenue and Customs</a> and <a href="https://www.nhsbsa.nhs.uk/" target="_blank">NHS Business Services Authority</a>.
         You can find him on
                  <a href="https://twitter.com/mrkwrght"  target="_blank">Twitter</a>,
@@ -19,5 +19,56 @@ title: Mark Wright
 
         </p>
     </div>
+</div>
+<div class="page ten columns">
+<div class="list">
+{% if site.posts.size == 0 %}
+ <h2>No post found</h2>
+{% else %}
+<!-- This loops through the paginated posts -->
+{% for post in paginator.posts %}
+ <div class="list-post">
+   {% if post.link %}
+   <a href="{{ post.link }}">
+   {% else %}
+   {% endif %}
+   <div class="list-post-date">
+     <time>{{ post.date | date_to_long_string }}</time>
+   </div>
+     <h2 class="list-post-title">
+         <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+     </h2>
+     {% if post.description %}
+     <div class="list-post-desc">
+       {{ post.description }}
+     </div>
+     {% endif %}
+ </div>
+{% endfor %}
+ <!-- Pagination links -->
+ <div class="list-pagination">
+   <span class="list-pagination-previous">
+     {% if paginator.previous_page %}
+       <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="previous">
+        < Previous
+       </a>
+     {% else %}
+
+     {% endif %}
+   </span>
+
+   <span class="list-pagination-next">
+     {% if paginator.next_page %}
+       <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="next">
+         Next >
+       </a>
+     {% else %}
+
+     {% endif %}
+   </span>
+
+ </div>
+{% endif %}
+</div>
 </div>
 </div>
