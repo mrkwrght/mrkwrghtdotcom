@@ -198,24 +198,32 @@ body {
     padding-top: .5rem;
     padding-bottom: .5rem;
     border: 0;
-    border-bottom: 1px solid $divider-color;
+    border-bottom: 1px solid #0e19ed;
     margin: 1.5rem auto;
+    margin-top: 10%;
 
 
 
     a {
-      color: $base-color;
+      margin: 4px;
+      margin-left: 0px;
+      color: $oc-white;
+      background-color: $oc-gray-6;
       text-decoration: none;
-      color: inherit;
+      border-radius: 3px;
 
-
-      &:hover,
-      &:focus {
-        text-decoration: none;
+      span {
+        float: left;
+        padding: .5px 5px;
       }
     }
 
-
+    a:hover {
+      background-color: $oc-gray-7;
+    }
+  }
+}
+}
 
 
 
