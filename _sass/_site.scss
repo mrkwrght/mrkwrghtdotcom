@@ -198,30 +198,22 @@ body {
     padding-top: .5rem;
     padding-bottom: .5rem;
     border: 0;
-    border-bottom: 1px solid #0e19ed;
+    border-bottom: 1px solid $divider-color;
     margin: 1.5rem auto;
-    margin-top: 10%;
 
 
 
     a {
-      margin: 4px;
-      margin-left: 0px;
-      color: $oc-white;
-      background-color: $oc-gray-6;
+      color: $base-color;
       text-decoration: none;
-      border-radius: 3px;
+      color: inherit;
 
-      span {
-        float: left;
-        padding: .5px 5px;
+
+      &:hover,
+      &:focus {
+        text-decoration: none;
       }
     }
-
-    a:hover {
-      background-color: $oc-gray-7;
-    }
-  }
 }
 
 
@@ -251,7 +243,7 @@ body {
       margin-bottom: .25rem;
       max-width: 55ch;
     }
-
+  }
 
   &-pagination {
     margin-top: 4rem;
@@ -286,7 +278,7 @@ body {
       }
     }
   }
-
+}
 
 
 
