@@ -34,9 +34,7 @@ url: "mrkwrght.com/"
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 permalink:          /:year-:month-:day/:title/
 
-# Pagination
-paginate:           5
-paginate_path:      /page:num/
+
 
 
 

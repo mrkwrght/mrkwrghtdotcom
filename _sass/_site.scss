@@ -239,7 +239,7 @@ body {
     }
 
     &-desc {
-      color: $base-color;
+      color:  #0e19ed;
       margin-bottom: .25rem;
       max-width: 55ch;
     }
@@ -255,11 +255,11 @@ body {
       float: left;
       padding-left: 2%;
       a {
-        color: $oc-gray-6;
+        color:  #0e19ed;
 
         &:hover,
         &:focus {
-          color: $oc-gray-7;
+          color: #0e19ed;
           text-decoration: none;
         }
       }
@@ -269,10 +269,10 @@ body {
       float: right;
       padding-right: 2%;
       a {
-        color: $oc-gray-6;
+        color: #0e19ed;
 
         &:hover {
-          color: $oc-gray-7;
+          color: #0e19ed;
           text-decoration: none;
         }
       }

@@ -45,30 +45,7 @@ title: Mark Wright
      {% endif %}
  </div>
 {% endfor %}
- <!-- Pagination links -->
- <div class="list-pagination">
-   <span class="list-pagination-previous">
-     {% if paginator.previous_page %}
-       <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="previous">
-        < Previous
-       </a>
-     {% else %}
 
-     {% endif %}
-   </span>
-
-   <span class="list-pagination-next">
-     {% if paginator.next_page %}
-       <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="next">
-         Next >
-       </a>
-     {% else %}
-
-     {% endif %}
-   </span>
-
-           </div>
-        {% endif %}
       </div>
     </div>
   </div>
