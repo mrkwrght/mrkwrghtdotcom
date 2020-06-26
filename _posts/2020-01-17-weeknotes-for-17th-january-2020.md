@@ -3,7 +3,7 @@ layout: post
 title:  "Weeknotes for 17th January 2020"
 ---
 
-# Weeknotes for 17th January 2020
+
 
 
 **I did** a lot of sketching this week. Nice to get away form the machine and coding for a bit and just doddle some rough ideas down on paper.

@@ -19,7 +19,7 @@ body {
 }
 
 .description {
-    position: relative;
+    position: fixed;
     width: 90%;
     padding-left:10px;
     margin: 0 auto;
@@ -198,13 +198,13 @@ body {
     padding-top: .5rem;
     padding-bottom: .5rem;
     border: 0;
-    border-bottom: 1px solid $divider-color;
+    border-bottom: 1px solid #0e19ed;
     margin: 1.5rem auto;
     margin-top: 10%;
 
 
     a {
-      color: $base-color;
+      color: #0e19ed;
       text-decoration: none;
       color: inherit;
 
@@ -232,7 +232,7 @@ body {
     }
 
     &-date {
-      color: $oc-gray-8;
+      color: #0e19ed;
       font-size: 1rem;
       margin-bottom: .5rem;
 

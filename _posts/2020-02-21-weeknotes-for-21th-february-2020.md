@@ -3,7 +3,7 @@ layout: post
 title:  "Weeknotes for 21th February 2020"
 ---
 
-# Weeknotes for 21th February 2020
+
 
 
 **I haven’t** had a very good mental health week, worrying about lots of stupid stuff. Need to put myself first more. Look after myself and my mind.

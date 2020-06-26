@@ -3,7 +3,6 @@ layout: post
 title:  "Weeknotes for 7th February 2020"
 ---
 
-# Weeknotes for 7th February 2020
 
 
 **I don't** like Mondays and that’s okay. It’s not every Monday like I mainly did that for the Bob Geldof reference, Sometimes one day or a few days are not sunshine and rainbows. Rest of the week was better

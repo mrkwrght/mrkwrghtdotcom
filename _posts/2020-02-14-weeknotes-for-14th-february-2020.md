@@ -3,8 +3,6 @@ layout: post
 title:  "Weeknotes for 14th February 2020"
 ---
 
-# Weeknotes for 14th February 2020
-
 
 **I did** a few days in the prototype kit with our content designer moving stuff around and changing stuff based on user feedback. feels like its been awhile since we did that.
 

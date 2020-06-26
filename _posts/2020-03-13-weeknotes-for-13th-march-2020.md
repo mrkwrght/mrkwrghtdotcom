@@ -3,7 +3,6 @@ layout: post
 title:  "Weeknotes for 13th March 2020"
 ---
 
-# Weeknotes for 13th March 2020
 
 
 **I still** haven’t written that long form blog about 3 months at the new job with difrent. I just keep forgetting to writing it.

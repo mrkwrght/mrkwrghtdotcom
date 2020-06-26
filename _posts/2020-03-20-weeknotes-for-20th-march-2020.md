@@ -3,7 +3,7 @@ layout: post
 title:  "Weeknotes for 20th March 2020"
 ---
 
-# Weeknotes for 20th March 2020
+
 
 
 **I am struggling** with this hole lockdown thing. If you know me I’m pretty social person and Im starting to struggling with the fact I haven’t seen a human in 3 weeks.

@@ -3,7 +3,7 @@ layout: post
 title:  "Weeknotes for 10th January 2020"
 ---
 
-# Weeknotes for 10th January 2020
+
 
 
 **I want** to give this #weeknotes thing a go in 2020. Be good to keep track of stuff I’m doing and be open about what I’m working on. Will most likely be quite short, not a big writer with being dyslexic and that. Hopefully by starting with weeknotes I can build my confidence as a writer and do some longer form stuff in the future.

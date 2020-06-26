@@ -3,7 +3,6 @@ layout: post
 title:  "Weeknotes for 21th February 2020"
 ---
 
-# Weeknotes for 21th February 2020
 
 
 **I was** pretty ill at the start of this week so I was off for a couple of days to try and recover and refresh. sometimes I do this thing where I just let things build build in my mind until it makes me physically sick. better now I think.

@@ -3,7 +3,6 @@ layout: post
 title:  "Weeknotes for 30th January 2020"
 ---
 
-# Weeknotes for 30th January 2020
 
 
 **I have** done weeknotes for 4 weeks now. Do I get a medal or something? Seriously enjoying doing it and I’m going to keep it up (unlike the meditation)

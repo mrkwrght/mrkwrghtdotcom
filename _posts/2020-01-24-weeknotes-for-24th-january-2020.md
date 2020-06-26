@@ -3,7 +3,7 @@ layout: post
 title:  "Weeknotes for 24th January 2020"
 ---
 
-# Weeknotes for 24th January 2020
+
 
 
 **I created** a prototype for something I don’t fully understand yet. Sometimes talking around in circles about things isn’t best way of doing it. getting an idea in front of users which your unsure about is better.
