@@ -32,17 +32,13 @@ title: Mark Wright
    <a href="{{ post.link }}">
    {% else %}
    {% endif %}
-   <div class="list-post-date">
+   <div class="list-post-date" style="color:#0e19ed;">
      <time>{{ post.date | date_to_long_string }}</time>
    </div>
-     <h2 class="list-post-title">
+     <h2 class="list-post-title" style="color:#0e19ed;">
          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
      </h2>
-     {% if post.description %}
-     <div class="list-post-desc">
-       {{ post.description }}
-     </div>
-     {% endif %}
+
  </div>
 {% endfor %}
  <!-- Pagination links -->
