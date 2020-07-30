@@ -192,6 +192,19 @@ body {
   Post list
   -------------- */
 
+.list-post-title a {
+    color: #0e19ed;
+    text-decoration: underline;
+    line-height: 2;
+    color: inherit;
+
+
+    &:hover,
+    &:focus {
+      text-decoration: none;
+    }
+  }
+
 .list {
   &-post {
     padding-top: .5rem;
