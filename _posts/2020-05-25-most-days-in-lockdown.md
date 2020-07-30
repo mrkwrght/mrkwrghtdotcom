@@ -13,14 +13,17 @@ title:  "Most days in lockdown"
 7:40 : coffee and toast.
 
 7:50 : 15 minute walk around the park near my flat, it was a run but Iv hurt my knee.
+
 8:00: more coffee.
 
-8:30: start work, normally finishing stuff up from yesterday and checking my list for today
+8:30: start work, normally finishing stuff up from yesterday and checking my list for today.
+
 9:00: start on whatever is top of my list.
 
 10:00: stand up, use list to tell what I did yesterday and what I do doing today. ( I lost track of what day is it like 3 weeks ago, its just 1 2 3 4 5)
 
 10:30: continue with task or start a new task from the list.
+
 11:00: third cup of coffee.
 
 11:30: push something to github, remember small and often commits kids!

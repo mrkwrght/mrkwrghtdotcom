@@ -364,6 +364,24 @@ body {
     color:#0e19ed;
 }
 
+.back-link:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 3px;
+    width: 7px;
+    height: 7px;
+    margin: auto 0;
+    -webkit-transform: rotate(225deg);
+    -ms-transform: rotate(225deg);
+    transform: rotate(225deg);
+    border: solid;
+    border-width: 1px 1px 0 0;
+    border-color: #0e19ed;
+}
+
 // ::selection {
 //   background: #000829; /* WebKit/Blink Browsers */
 // }
