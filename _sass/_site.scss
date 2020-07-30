@@ -349,6 +349,21 @@ body {
     color: $oc-black;
 }
 
+.back-link {
+    font-size: 14px;
+    font-size: .875rem;
+    line-height: 1.14286;
+    font-family: Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 14px;
+    color:#0e19ed;
+}
+
 // ::selection {
 //   background: #000829; /* WebKit/Blink Browsers */
 // }

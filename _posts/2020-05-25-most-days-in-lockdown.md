@@ -10,7 +10,7 @@ title:  "Most days in lockdown"
 
 7.30 : get up, shower.
 
-7:40 : coffee and toast.\
+7:40 : coffee and toast.
 
 7:50 : 15 minute walk around the park near my flat, it was a run but Iv hurt my knee.
 8:00: more coffee.
