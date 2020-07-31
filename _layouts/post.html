@@ -6,9 +6,42 @@ layout: default
 
 <style>
 
+  .back-link {
+      font-size: 14px;
+      font-size: .875rem;
+      line-height: 1.14286;
+      font-family: Arial,sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      display: inline-block;
+      position: relative;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      padding-left: 14px;
+      color:#0e19ed;
+  }
+
+  .back-link:before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 3px;
+      width: 7px;
+      height: 7px;
+      margin: auto 0;
+      -webkit-transform: rotate(225deg);
+      -ms-transform: rotate(225deg);
+      transform: rotate(225deg);
+      border: solid;
+      border-width: 1px 1px 0 0;
+      border-color: #0e19ed;
+  }
+
   .post {
-    padding-top:30px;
-    padding-bottom:30px;
+    padding-top:40px;
+    padding-bottom:40px;
     font-family: Arial, Helvetica, sans-serif;
       font-size: 18px;
   }
