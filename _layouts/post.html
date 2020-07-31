@@ -6,6 +6,9 @@ layout: default
 
 <style>
 
+.back-container{
+  padding-bottom: 20px;
+}
   .post-date {
     font-weight:bold;
   }
@@ -143,9 +146,9 @@ layout: default
 <div class="row">
   <div class="ten columns">
 <div class="post">
+  <div class="back-container">
   <a href="{{ site.baseurl }}/index" class="back-link">Back</a>
-  <br />
-  <br />
+  </div>
   <span class="post-date">
     <time>{{ page.date | date_to_long_string}}</time>
   </span>
