@@ -19,7 +19,7 @@ body {
 }
 
 .description {
-  
+
     position: relative;
     width: 90%;
     margin: 1.5rem auto;
@@ -47,6 +47,16 @@ body {
 /*--------------
   Header
   -------------- */
+
+  .visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
 .header {
   margin-bottom: 2em;
   margin-top: 2em;
